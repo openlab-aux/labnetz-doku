@@ -57,6 +57,7 @@ Reserved/Fixed IPs:
   * `172.16.0.1` Gateway (defendo)
   * `172.16.0.10` AP Nordseite
   * `172.16.0.11` AP Südseite
+  * `172.16.0.20` Flipdot-Display (Raspberry Pi)
 
 DHCP Range for clients:
   * `172.16.0.50 - 172.16.0.254`
