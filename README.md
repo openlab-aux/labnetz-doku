@@ -61,3 +61,6 @@ Reserved/Fixed IPs:
 
 DHCP Range for clients:
   * `172.16.0.50 - 172.16.0.254`
+ 
+Not in Range:
+  * `10.90.90.90`: Switch D-Link
