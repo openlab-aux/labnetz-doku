@@ -55,7 +55,7 @@ IP Range: `172.16.0.1/24`
 
 Reserved/Fixed IPs:
   * `172.16.0.1` Gateway (defendo)
-  * `172.16.0.1` rantanplan
+  * `172.16.0.2` rantanplan
   * `172.16.0.5` Drucker Kyocera FS-1020D
   * `172.16.0.10` AP Nordseite
   * `172.16.0.11` AP Südseite
