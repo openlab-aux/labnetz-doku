@@ -51,14 +51,37 @@ SSIDs:
 
 ## Numbering ##
 
-IP Range: `172.16.0.1/24`
+IP Range: `172.16.0.1/16`
 
 Reserved/Fixed IPs:
   * `172.16.0.1` Gateway (defendo)
-  * `172.16.0.2` rantanplan
   * `172.16.0.5` Drucker Kyocera FS-1020D
   * `172.16.0.10` AP Nordseite
   * `172.16.0.11` AP Südseite
+  * `172.16.16.1` rantanplan
+
+VMs auf Rantanplan:
+`172.16.16.%i % ct_id` (`100 <= ct_id < 255`)
+
+```
+CTID   NPROC   STATUS    IP_ADDR         HOSTNAME
+ 100      35   running   172.16.16.100   mpd.ffa
+ 104      37   running   172.16.16.104   rantanftp.ffa
+ 105      29   running   172.16.16.105   moritz.ffa
+ 106      14   running   172.16.16.106   kasse.ffa
+ 107      18   running   172.16.16.107   sphincter.ffa
+ 108      10   running   172.16.16.108   waaaaargh.ffa
+ 109      26   running   172.16.16.109   fileshare.ffa
+ 110      71   running   172.16.16.110   torcollect.ffa
+ 111       9   running   172.16.16.111   torservers.ffa
+ 112      10   running   172.16.16.112   richie.ffa
+ 113      92   running   172.16.16.113   labapi.ffa
+ 114      13   running   172.16.16.114   irc
+ 115      14   running   172.16.16.115   glaxx
+ 116      16   running   172.16.16.116   beehive.ffa
+ 117      10   running   172.16.16.117   inventory.ffa
+
+```
 
 DHCP Range for clients:
   * `172.16.0.50 - 172.16.0.254`
