@@ -2,7 +2,7 @@
 
 ## Dieses Dokument ##
 
-Die Dokumente in diesem Repository beschreiben den Stand des Labornetzes vom 29.1.2015
+Die Dokumente in diesem Repository beschreiben den Stand des Labornetzes vom 29.1.2015, sowie einigen Änderungen die zum 21.09.2015 eingetreten sind.
 
 ## Ziele ##
 
@@ -10,13 +10,23 @@ Das Labor soll zuverlässig an das Internet angebunden sein. Geräte und Infrast
 
 ## Netz ##
 
-Das Labor ist über Moritz' Wohnung an das Internet angebunden. Damit das Labor nach außen hin nicht unter Mo's privater IP-Adresse surft, wird jeglicher Internettraffic, den das Lab erzeugt, durch einen VPN-Tunnel geleitet.
+### Internet ###
 
-Der Zentrale Router hat 4 Ethernet-Interfaces:
-  * eth0 führt (auf Umwegen) zu Moritz' Modem
-  * an eth1 wird DHCP ausgegeben, hier werden auch die Clients verbunden
+Das Labor wird im Normfall über Moritz' Wohnung an das Internet angebunden, im Fehlerfall ist auch eine Umleitung über pRiVi möglich sowie die Freifunkanbindung.
+
+Damit das Labor nach außen hin nicht unter Mo's privater IP-Adresse surft, wird jeglicher Internettraffic, den das Lab erzeugt, durch einen VPN-Tunnel geleitet.
+
+## Neuordnung 21.09.2015 ##
+
+Zum 21.09.2015 wurde folgender Zustand erreicht. Die genauere Beschreibung folgt noch.
+
+![network_map](./OpenLAB.png)
 
 ### heinrich (defendo) ###
+
+Der Zentrale Router (heinrich/defendo) hat 4 Ethernet-Interfaces:
+  * eth0 führt (auf Umwegen) zu Moritz' Modem
+  * an eth1 wird DHCP ausgegeben, hier werden auch die Clients verbunden
 
 Auf dem Interface `eth0` VLANs an:
   * `14` zu Moritz
@@ -33,7 +43,7 @@ Damit weiterhin nicht automatisch Moritz' Router als Default-Route auf heinrich 
   * `/etc/openvpn/client.conf` [link](heinrich/etc/openvpn/client.conf)
   * `/etc/iptables/rules.v4` [link](heinrich/etc/iptables/rules.v4)
 
-### exit ###
+#### exit ####
 
 exit macht outbound NAT.
 
