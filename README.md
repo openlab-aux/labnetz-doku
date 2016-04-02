@@ -74,23 +74,22 @@ VMs auf Rantanplan:
 `172.16.16.%i % ct_id` (`100 <= ct_id < 255`)
 
 ```
-CTID   NPROC   STATUS    IP_ADDR         HOSTNAME
- 100      35   running   172.16.16.100   mpd.ffa
- 104      37   running   172.16.16.104   rantanftp.ffa
- 105      29   running   172.16.16.105   moritz.ffa
- 106      14   running   172.16.16.106   kasse.ffa
- 107      18   running   172.16.16.107   sphincter.ffa
- 108      10   running   172.16.16.108   waaaaargh.ffa
- 109      26   running   172.16.16.109   fileshare.ffa
- 110      71   running   172.16.16.110   torcollect.ffa
- 111       9   running   172.16.16.111   torservers.ffa
- 112      10   running   172.16.16.112   richie.ffa
- 113      92   running   172.16.16.113   labapi.ffa
- 114      13   running   172.16.16.114   irc
- 115      14   running   172.16.16.115   glaxx
- 116      16   running   172.16.16.116   beehive.ffa
- 117      10   running   172.16.16.117   inventory.ffa
-
+      CTID      NPROC STATUS    IP_ADDR         HOSTNAME
+       100         30 running   172.16.16.100   mpd.ffa
+       104         41 running   172.16.16.104   rantanftp.ffa
+       105         96 running   172.16.16.105   moritz.ffa
+       106         14 running   172.16.16.106   kasse.ffa
+       107         18 running   172.16.16.107   sphincter.ffa
+       108         10 running   172.16.16.108   waaaaargh.ffa
+       109         25 running   172.16.16.109   fileshare.ffa
+       112         19 running   172.16.16.112   flypps.openlab.lan
+       113         92 running   172.16.16.113   labapi.ffa
+       114         13 running   172.16.16.114   irc
+       115         14 running   172.16.16.115   glaxx
+       116         15 running   172.16.16.116   beehive.ffa
+       117          9 running   172.16.16.117   inventory.ffa
+       118         21 running   172.16.16.118   print.openlab.lan
+       119         35 running   172.16.16.119   lsmsd.openlab.lan
 ```
 
 DHCP Range for clients:
