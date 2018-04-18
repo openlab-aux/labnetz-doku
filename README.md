@@ -2,6 +2,8 @@
 
 ## Dieses Dokument ##
 
+DIESES DOKUMENT IST VERALTET; AKTUELLE DOKU UNTER https://wiki.openlab-augsburg.de/Netzwerk
+
 Die Dokumente in diesem Repository beschreiben den Stand des Labornetzes vom 29.1.2015, sowie einigen Änderungen die zum 21.09.2015 eingetreten sind.
 
 ## Ziele ##
